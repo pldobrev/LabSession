@@ -1,0 +1,23 @@
+{
+  "name": "js_lab_session_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src.js",
+  "scripts": {
+    "test:server": "mocha test/server.js --slow 1000",
+    "test:client": "mocha test/client.js",
+    "test": "npm run test:server && npm run test:client",
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
