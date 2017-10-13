@@ -43,3 +43,4 @@ The API should only return 10 items before starting to return an error.
 
 - Make the API restart the throttling after a timeout.
 - Rewrite the `client/app.js` in React.
+# LabSession
